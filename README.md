@@ -51,3 +51,25 @@ Copy code
 
 Now, you should be able to see the API running at `http://localhost:5000/`.
 Ensure that you replace app.py with the actual name of your main python script.
+
+
+## Testing
+This project uses pytest for testing.
+
+### Installing pytest
+If you haven't installed pytest yet, you can do so with the following command:
+
+```
+pip install pytest
+```
+
+### Running the tests
+Once you've installed pytest, you can run the tests with the following command:
+
+```
+pytest
+```
+
+Replace test_your_flask_app.py with the name of your test script.
+
+If all tests pass, pytest will print a summary to the console and exit with status 0. If any tests fail, pytest will print detailed error messages for each failed test and exit with a non-zero status code.
